@@ -40,7 +40,7 @@ Kroenke K, Spitzer RL, Williams JB. The Patient Health Questionnaire-2: validity
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"01bc7479b59849945cd60634598593c3">
+		["MD5-CAM-1.0.1"] = <"a2d93a95c081c9e8d7bd0079657eaa30">
 		["build_uid"] = <"d6653acb-2695-4c08-8840-30198bbddeff">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -131,7 +131,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"MARS-5">
-					description = <"Screening questionnaire for mental health that can be used by health professionals or self-reported by individuals.">
+					description = <"">
 				>
 				["at0001"] = <
 					text = <"Event Series">
