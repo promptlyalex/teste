@@ -24,7 +24,7 @@ description
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
 		["build_uid"] = <"db99022c-f96d-3fc8-a064-db7507688d69">
-		["MD5-CAM-1.0.1"] = <"812fdb13ba232a213ccc0eaa173da038">
+		["MD5-CAM-1.0.1"] = <"6f141a16493e6e445433dba73ee0da0b">
 	>
 
 definition
@@ -36,7 +36,7 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
-									ELEMENT[at0009] occurrences matches {0..1} matches {    -- I forget to take them
+									ELEMENT[at0009] matches {    -- I forget to take them
 										value matches {
 											1|[local::at0006],
 											2|[local::at0007],
@@ -45,7 +45,7 @@ definition
 											5|[local::at0029]
 										}
 									}
-									ELEMENT[at0012] occurrences matches {0..1} matches {    -- I alter the dose
+									ELEMENT[at0012] matches {    -- I alter the dose
 										value matches {
 											1|[local::at0006],
 											2|[local::at0007],
@@ -54,16 +54,7 @@ definition
 											5|[local::at0031]
 										}
 									}
-									ELEMENT[at0013] occurrences matches {0..1} matches {    -- I stop taking them for a while
-										value matches {
-											1|[local::at0006],
-											2|[local::at0007],
-											3|[local::at0008],
-											4|[local::at0032],
-											5|[local::at0033]
-										}
-									}
-									ELEMENT[at0014] occurrences matches {0..1} matches {    -- I decide to miss out a dose
+									ELEMENT[at0014] matches {    -- I decide to miss out a dose
 										value matches {
 											1|[local::at0006],
 											2|[local::at0007],
@@ -72,7 +63,16 @@ definition
 											5|[local::at0035]
 										}
 									}
-									ELEMENT[at0015] occurrences matches {0..1} matches {    -- I take less than instructed
+									ELEMENT[at0013] matches {    -- I stop taking them for a while
+										value matches {
+											1|[local::at0006],
+											2|[local::at0007],
+											3|[local::at0008],
+											4|[local::at0032],
+											5|[local::at0033]
+										}
+									}
+									ELEMENT[at0015] matches {    -- I take less than instructed
 										value matches {
 											1|[local::at0006],
 											2|[local::at0007],
